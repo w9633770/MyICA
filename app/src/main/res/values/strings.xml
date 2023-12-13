@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Foodie Friends</string>
+    <string name="app_name"> Electronics App</string>
 
     <string name="hello">, </string>
-    <string name="terms_and_conditions_headerdes">, Foodie Friends Application Term of Use </string>
+    <string name="terms_and_conditions_headerdes">, Electronics App Term of Use </string>
     <string name="create_account">Create an Account </string>
     <string name="welcome">Welcome Back</string>
     <string name="first_name">First Name</string>
@@ -23,5 +23,11 @@
     <string name="logout">Logout</string>
     <string name="menu">Menu</string>
     <string name="navigation_header">App Drawer</string>
+    <string name="title_activity_electronics_details">ElectronicsDetailsActivity</string>
+    <string name="title_activity_screen_one">Screen_One_Activity</string>
+    <string name="title_activity_two">TwoActivity</string>
+    <string name="title_activity_three">ThreeActivity</string>
+    <string name="title_activity_four">FourActivity</string>
+    <string name="title_activity_fourth">FourthActivity</string>
 
 </resources>

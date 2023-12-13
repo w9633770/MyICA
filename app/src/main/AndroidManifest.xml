@@ -2,6 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,19 +25,74 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FoodieFriends"
+        android:theme="@style/Theme.Electronis"
         tools:targetApi="31">
+        <activity
+            android:name=".FourthActivity"
+            android:exported="false"
+            android:label="@string/title_activity_fourth"
+            android:theme="@style/Theme.Electronis" />
+        <activity
+            android:name=".FourActivity"
+            android:exported="false"
+            android:label="@string/title_activity_four"
+            android:theme="@style/Theme.Electronis" />
+        <activity
+            android:name=".ThreeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_three"
+            android:theme="@style/Theme.Electronis" />
+        <activity
+            android:name=".TwoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_two"
+            android:theme="@style/Theme.Electronis" />
+        <activity
+            android:name=".Screen_One_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_screen_one"
+            android:theme="@style/Theme.Electronis" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_electronics_details"
+            android:theme="@style/Theme.Electronis" />
+        <activity
+            android:name=".OrderSuccessActivity"
+            android:exported="false"
+            android:label="@string/title_activity_electronics_details"
+            android:theme="@style/Theme.Electronis" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_electronics_details"
+            android:theme="@style/Theme.Electronis" />
+        <activity
+            android:name=".ElectronicsDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_electronics_details"
+            android:theme="@style/Theme.Electronis" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.FoodieFriends">
+            android:theme="@style/Theme.Electronis">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.venkat.electronics"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 
 </manifest>

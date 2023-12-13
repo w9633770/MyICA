@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "598365779838",
-    "project_id": "foodiefriends-3f537",
-    "storage_bucket": "foodiefriends-3f537.appspot.com"
+    "project_number": "423490583845",
+    "project_id": "electronics-app-9b89b",
+    "storage_bucket": "electronics-app-9b89b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:598365779838:android:b9e7fc2e967affe25f652f",
+        "mobilesdk_app_id": "1:423490583845:android:9cacbc41cb71d6f8baaecc",
         "android_client_info": {
-          "package_name": "com.venkatesh.foodiefriends"
+          "package_name": "com.venkat.electronics"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAOcJKHxTqbaCnOBMXwfs4lc-sjzItlce0"
+          "current_key": "AIzaSyBa1CO0EwV0hrSOFnSKjmileX5pvB57G-A"
         }
       ],
       "services": {
